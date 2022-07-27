@@ -38,7 +38,7 @@ def main(app="rmw"):
 # -Z build-std-features=panic_immediate_abort
 
   out=f"target/{TARGET}/release/{app}"
-  strip @(out)
+#  strip @(out)
 
 #./sh/upx.sh
   upx --best --lzma @(out)
