@@ -471,9 +471,9 @@ dependencies = [
 
 [[package]]
 name = "concurrent-queue"
-version = "1.2.2"
+version = "1.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "30ed07550be01594c6026cff2a1d7fe9c8f683caa798e12b68694ac9e88286a3"
+checksum = "af4780a44ab5696ea9e28294517f1fffb421a83a25af521333c838635509db9c"
 dependencies = [
  "cache-padded",
 ]
@@ -744,9 +744,9 @@ dependencies = [
 
 [[package]]
 name = "event-listener"
-version = "2.5.2"
+version = "2.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77f3309417938f28bf8228fcff79a4a37103981e3e186d2ccd19c74b38f4eb71"
+checksum = "0206175f82b8d6bf6652ff7d71a1e27fd2e4efde587fd368662814d6ec1d9ce0"
 
 [[package]]
 name = "expire_map"
@@ -1540,9 +1540,9 @@ dependencies = [
 
 [[package]]
 name = "redox_syscall"
-version = "0.2.15"
+version = "0.2.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "534cfe58d6a18cc17120fbf4635d53d14691c1fe4d951064df9bd326178d7d5a"
+checksum = "fb5a58c1855b4b6819d59012155603f0b22ad30cad752600aadfcb695265519a"
 dependencies = [
  "bitflags",
 ]
@@ -1582,9 +1582,9 @@ dependencies = [
 
 [[package]]
 name = "rmw-upnp"
-version = "0.2.2"
+version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4daae12882d54c88cffd794fe3ff6b29317e95b92dd3d1fe49e13631a65525f3"
+checksum = "eb56d4351e368476b8c4b2aafdb96acf14aa561cf57d4b362cd946ba18ade451"
 dependencies = [
  "anyhow",
  "async-std",
@@ -1618,9 +1618,9 @@ dependencies = [
 
 [[package]]
 name = "rmw_log"
-version = "0.0.8"
+version = "0.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bbc75b4cdf01ba6d3a1f93b73cfe27384158ac13afea2c8ba198bd63a250ba07"
+checksum = "4b06e85b5fd79b4fb48af835feb680b6ab882675bacf1b2eab257dd6b07f6081"
 dependencies = [
  "chrono",
  "colored",

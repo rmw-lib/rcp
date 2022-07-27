@@ -11,4 +11,4 @@ net = { path = "../net" }
 ws = { path = "../ws" }
 err = { version = "0.0.5", package = "rmw_err" }
 log = "0.4.17"
-rmw_log = "0.0.8"
+rmw_log = "0.0.9"
