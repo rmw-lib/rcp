@@ -20,7 +20,7 @@ debug-assertions = false
 overflow-checks = false
 opt-level = 3
 panic = 'abort'
-#strip = true
+strip = true
 #[target.'cfg(target_os = "linux")'.patch.crates-io]
 #[patch.crates-io]
 #libduckdb-sys = { path = "./lib/duckdb-rs/libduckdb-sys" }
