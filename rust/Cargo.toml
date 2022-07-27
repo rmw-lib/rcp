@@ -1,0 +1,26 @@
+[workspace]
+exclude = ['lib']
+members = [
+  "api",
+  "cli",
+  "rmw",
+  "ws",
+  "net",
+  "run",
+  "wasm",
+  "lib/util",
+  "lib/time",
+  "lib/b80"
+]
+
+[profile.release]
+lto = true
+codegen-units = 1
+debug-assertions = false
+overflow-checks = false
+opt-level = 3
+panic = 'abort'
+#strip = true
+#[target.'cfg(target_os = "linux")'.patch.crates-io]
+#[patch.crates-io]
+#libduckdb-sys = { path = "./lib/duckdb-rs/libduckdb-sys" }

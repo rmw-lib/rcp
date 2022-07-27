@@ -1,0 +1,29 @@
+[package]
+name = "net"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["upnp"]
+upnp = ["dep:upnp"]
+
+[dependencies]
+run = { path = "../run" }
+err = { version = "0.0.5", package = "rmw_err" }
+util = { path = "../lib/util" }
+time = { path = "../lib/time" }
+upnp = { package = "rmw-upnp", optional = true, version = "0.2.2" }
+speedy = { path = "../lib/speedy" }
+b80 = { path = "../lib/b80" }
+async-std = { version = "1.12.0", features = ["unstable"] }
+anyhow = "1.0.58"
+log = "0.4.17"
+futures = "0.3.21"
+paste = "1.0.7"
+smallvec = "1.9.0"
+rand = "0.8.5"
+file_cache = "0.0.5"
+expire_map = "0.0.34"
+parking_lot = "0.12.1"
+dashmap = "5.3.4"
+config = { version = "0.0.7", package = "rmw_config" }

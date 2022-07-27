@@ -1,0 +1,14 @@
+[package]
+name = "rmw"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+anyhow = "1.0.58"
+async-std = "1.12.0"
+net = { path = "../net" }
+ws = { path = "../ws" }
+err = { version = "0.0.5", package = "rmw_err" }
+log = "0.4.17"
+rmw_log = "0.0.8"
