@@ -10,7 +10,7 @@ import thisdir from '@rmw/thisdir'
 import { writeFileSync,renameSync } from 'fs'
 import import_pug from './plugin/pug.js'
 
-ROOT = dirname thisdir(import.meta)
+ROOT = thisdir(import.meta)
 DIST = join ROOT,'dist'
 SRC = join ROOT,'src'
 FILE = join ROOT,'file'
