@@ -1582,9 +1582,9 @@ dependencies = [
 
 [[package]]
 name = "rmw-upnp"
-version = "0.2.3"
+version = "0.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eb56d4351e368476b8c4b2aafdb96acf14aa561cf57d4b362cd946ba18ade451"
+checksum = "0a270fca3d15cea862c4f6522950eefce472ff08f2b6529db4e4196973db73b5"
 dependencies = [
  "anyhow",
  "async-std",
